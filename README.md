@@ -1,0 +1,2 @@
+# EMNetwoking
+参考AFNetworking，封装NSURLSession完成普通的get，post的dataTask
