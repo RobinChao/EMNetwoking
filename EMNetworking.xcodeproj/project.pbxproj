@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDD47FF11DEFC941003A89E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD47FF01DEFC941003A89E6 /* main.m */; };
+		CDD47FF41DEFC941003A89E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD47FF31DEFC941003A89E6 /* AppDelegate.m */; };
+		CDD47FF71DEFC941003A89E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD47FF61DEFC941003A89E6 /* ViewController.m */; };
+		CDD47FFA1DEFC941003A89E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD47FF81DEFC941003A89E6 /* Main.storyboard */; };
+		CDD47FFC1DEFC941003A89E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD47FFB1DEFC941003A89E6 /* Assets.xcassets */; };
+		CDD47FFF1DEFC941003A89E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD47FFD1DEFC941003A89E6 /* LaunchScreen.storyboard */; };
+		CDD480091DEFCB3A003A89E6 /* EMNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD480081DEFCB3A003A89E6 /* EMNetworking.m */; };
+		CDD4800C1DEFCE08003A89E6 /* EMHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD4800B1DEFCE08003A89E6 /* EMHTTPSessionManager.m */; };
+		CDD4800F1DEFD0C2003A89E6 /* EMRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD4800E1DEFD0C2003A89E6 /* EMRequestSerialization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDD47FEC1DEFC941003A89E6 /* EMNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD47FF01DEFC941003A89E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDD47FF21DEFC941003A89E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDD47FF31DEFC941003A89E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDD47FF51DEFC941003A89E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDD47FF61DEFC941003A89E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDD47FF91DEFC941003A89E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDD47FFB1DEFC941003A89E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDD47FFE1DEFC941003A89E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDD480001DEFC941003A89E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD480071DEFCB3A003A89E6 /* EMNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMNetworking.h; sourceTree = "<group>"; };
+		CDD480081DEFCB3A003A89E6 /* EMNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMNetworking.m; sourceTree = "<group>"; };
+		CDD4800A1DEFCE08003A89E6 /* EMHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMHTTPSessionManager.h; sourceTree = "<group>"; };
+		CDD4800B1DEFCE08003A89E6 /* EMHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMHTTPSessionManager.m; sourceTree = "<group>"; };
+		CDD4800D1DEFD0C2003A89E6 /* EMRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRequestSerialization.h; sourceTree = "<group>"; };
+		CDD4800E1DEFD0C2003A89E6 /* EMRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRequestSerialization.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD47FE91DEFC941003A89E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDD47FE31DEFC941003A89E6 = {
+			isa = PBXGroup;
+			children = (
+				CDD47FEE1DEFC941003A89E6 /* EMNetworking */,
+				CDD47FED1DEFC941003A89E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD47FED1DEFC941003A89E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD47FEC1DEFC941003A89E6 /* EMNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD47FEE1DEFC941003A89E6 /* EMNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CDD480061DEFCAD2003A89E6 /* Class */,
+				CDD47FF21DEFC941003A89E6 /* AppDelegate.h */,
+				CDD47FF31DEFC941003A89E6 /* AppDelegate.m */,
+				CDD47FF51DEFC941003A89E6 /* ViewController.h */,
+				CDD47FF61DEFC941003A89E6 /* ViewController.m */,
+				CDD47FF81DEFC941003A89E6 /* Main.storyboard */,
+				CDD47FFB1DEFC941003A89E6 /* Assets.xcassets */,
+				CDD47FFD1DEFC941003A89E6 /* LaunchScreen.storyboard */,
+				CDD480001DEFC941003A89E6 /* Info.plist */,
+				CDD47FEF1DEFC941003A89E6 /* Supporting Files */,
+			);
+			path = EMNetworking;
+			sourceTree = "<group>";
+		};
+		CDD47FEF1DEFC941003A89E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD47FF01DEFC941003A89E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDD480061DEFCAD2003A89E6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CDD480071DEFCB3A003A89E6 /* EMNetworking.h */,
+				CDD480081DEFCB3A003A89E6 /* EMNetworking.m */,
+				CDD4800A1DEFCE08003A89E6 /* EMHTTPSessionManager.h */,
+				CDD4800B1DEFCE08003A89E6 /* EMHTTPSessionManager.m */,
+				CDD4800D1DEFD0C2003A89E6 /* EMRequestSerialization.h */,
+				CDD4800E1DEFD0C2003A89E6 /* EMRequestSerialization.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD47FEB1DEFC941003A89E6 /* EMNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD480031DEFC941003A89E6 /* Build configuration list for PBXNativeTarget "EMNetworking" */;
+			buildPhases = (
+				CDD47FE81DEFC941003A89E6 /* Sources */,
+				CDD47FE91DEFC941003A89E6 /* Frameworks */,
+				CDD47FEA1DEFC941003A89E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMNetworking;
+			productName = EMNetworking;
+			productReference = CDD47FEC1DEFC941003A89E6 /* EMNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD47FE41DEFC941003A89E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Emir;
+				TargetAttributes = {
+					CDD47FEB1DEFC941003A89E6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDD47FE71DEFC941003A89E6 /* Build configuration list for PBXProject "EMNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDD47FE31DEFC941003A89E6;
+			productRefGroup = CDD47FED1DEFC941003A89E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD47FEB1DEFC941003A89E6 /* EMNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDD47FEA1DEFC941003A89E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD47FFF1DEFC941003A89E6 /* LaunchScreen.storyboard in Resources */,
+				CDD47FFC1DEFC941003A89E6 /* Assets.xcassets in Resources */,
+				CDD47FFA1DEFC941003A89E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD47FE81DEFC941003A89E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD47FF71DEFC941003A89E6 /* ViewController.m in Sources */,
+				CDD47FF41DEFC941003A89E6 /* AppDelegate.m in Sources */,
+				CDD4800F1DEFD0C2003A89E6 /* EMRequestSerialization.m in Sources */,
+				CDD47FF11DEFC941003A89E6 /* main.m in Sources */,
+				CDD480091DEFCB3A003A89E6 /* EMNetworking.m in Sources */,
+				CDD4800C1DEFCE08003A89E6 /* EMHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDD47FF81DEFC941003A89E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD47FF91DEFC941003A89E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDD47FFD1DEFC941003A89E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD47FFE1DEFC941003A89E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDD480011DEFC941003A89E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDD480021DEFC941003A89E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDD480041DEFC941003A89E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMNetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazycodingman.EMNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDD480051DEFC941003A89E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMNetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazycodingman.EMNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD47FE71DEFC941003A89E6 /* Build configuration list for PBXProject "EMNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD480011DEFC941003A89E6 /* Debug */,
+				CDD480021DEFC941003A89E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD480031DEFC941003A89E6 /* Build configuration list for PBXNativeTarget "EMNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD480041DEFC941003A89E6 /* Debug */,
+				CDD480051DEFC941003A89E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD47FE41DEFC941003A89E6 /* Project object */;
+}
